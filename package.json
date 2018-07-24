@@ -6,15 +6,10 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "gh-pages -d dist",
-    "deploy:build": "npm run docs:build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "vuepress": "^0.12.0"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
-  }
 }
