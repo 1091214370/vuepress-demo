@@ -1,6 +1,6 @@
 module.exports = {
   title: '辰森文档中心',
-  base: '/vuepress-demo/',
+  base: '/vuepress-demo/dist/',
   dest: './dist',
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }],
